@@ -5,4 +5,5 @@ return [element, ...array]
 
 function destructivelyAddElementToBeginningOfArray (array, element) {
   array.push(element)
+  return array
 }
